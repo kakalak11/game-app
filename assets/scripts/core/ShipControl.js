@@ -17,6 +17,8 @@ cc.Class({
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
 
         this._sprite = this.node.getComponentInChildren(cc.Sprite);
+        this._canMoveHorizontally = true;
+        this._canMoveVertically = true;
     },
 
     onKeyUp(event) {
@@ -24,43 +26,71 @@ cc.Class({
             const bullet = cc.instantiate(this.bulletPrefab);
             bullet.parent = this.bulletHolder;
             bullet.position = this.node.getPosition();
+            return;
         }
-
         const isReturnToIdle = event.keyCode === cc.macro.KEY.d || event.keyCode === cc.macro.KEY.a;
         if (isReturnToIdle) {
+            this._canMoveHorizontally = true;
             this._sprite.spriteFrame = this.steerForward;
             if (this.horizontalTween) this.horizontalTween.stop();
         }
 
         const stopVertical = event.keyCode == cc.macro.KEY.w || event.keyCode == cc.macro.KEY.s;
-        if (stopVertical) this.verticalTween.stop();
+        if (stopVertical) {
+            this._canMoveVertically = true;
+            this.verticalTween.stop();
+        }
 
         cc.warn(isReturnToIdle);
     },
 
     onKeyDown(event) {
-        if (event.keyCode == cc.macro.KEY.d) {
-            this._steerHorizontal({ isRight: true });
-        } else if (event.keyCode == cc.macro.KEY.a) {
-            this._steerHorizontal({ isRight: false });
-        } else if (event.keyCode == cc.macro.KEY.w) {
-            this._steerVertical({ isForward: true });
-        } else if (event.keyCode == cc.macro.KEY.s) {
-            this._steerVertical({ isForward: false });
+        if (this._canMoveHorizontally) {
+            this._canMoveHorizontally = false;
+            if (this.horizontalTween) this.horizontalTween.stop();
+
+            if (event.keyCode == cc.macro.KEY.d) {
+                this._steerHorizontal({ isRight: true });
+            }
+
+            if (event.keyCode == cc.macro.KEY.a) {
+                this._steerHorizontal({ isRight: false });
+            }
+        }
+
+        if (this._canMoveVertically) {
+            this._canMoveVertically = false;
+            if (this.verticalTween) this.verticalTween.stop();
+
+            if (event.keyCode == cc.macro.KEY.w) {
+                this._steerVertical({ isForward: true });
+            }
+            if (event.keyCode == cc.macro.KEY.s) {
+                this._steerVertical({ isForward: false });
+            }
         }
     },
 
     _steerHorizontal({ isRight = true }) {
-        if (isRight) this._sprite.spriteFrame = this.steerLeft;
-        else this._sprite.spriteFrame = this.steerRight;
-        if (this.horizontalTween) this.horizontalTween.stop();
+        this._changeStatic(isRight);
 
-        this.horizontalTween = cc.tween(this.node).repeatForever(cc.tween().by(1, { x: isRight ? this.speed : this.speed * -1 })).start();
+        this.horizontalTween = cc.tween(this.node)
+            .repeatForever(
+                cc.tween()
+                    .by(1, { x: isRight ? this.speed : this.speed * -1 })
+            ).start();
     },
 
     _steerVertical({ isForward = true }) {
-        if (this.verticalTween) this.verticalTween.stop();
-
-        this.verticalTween = cc.tween(this.node).repeatForever(cc.tween().by(1, { y: isForward ? this.speed : this.speed * -1 })).start();
+        this.verticalTween = cc.tween(this.node)
+            .repeatForever(
+                cc.tween()
+                    .by(1, { y: isForward ? this.speed : this.speed * -1 })
+            ).start();
     },
+
+    _changeStatic(isRight) {
+        if (isRight) this._sprite.spriteFrame = this.steerRight;
+        else this._sprite.spriteFrame = this.steerLeft;
+    }
 });

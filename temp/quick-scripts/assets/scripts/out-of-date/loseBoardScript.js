@@ -1,6 +1,6 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/scripts/out-of-date/loseBoardScript.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
 cc._RF.push(module, '4e973i4LAhKiIcut4t1zfFh', 'loseBoardScript', __filename);
-// script/loseBoardScript.js
+// scripts/out-of-date/loseBoardScript.js
 
 'use strict';
 

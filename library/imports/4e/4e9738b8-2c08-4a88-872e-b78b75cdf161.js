@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '4e973i4LAhKiIcut4t1zfFh', 'loseBoardScript');
-// script/loseBoardScript.js
+// scripts/out-of-date/loseBoardScript.js
 
 'use strict';
 

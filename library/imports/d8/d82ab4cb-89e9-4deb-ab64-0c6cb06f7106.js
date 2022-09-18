@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'd82abTLielN66tkDGywb3EG', 'PoolFactory');
-// script/PoolFactory.js
+// scripts/common/PoolFactory.js
 
 'use strict';
 

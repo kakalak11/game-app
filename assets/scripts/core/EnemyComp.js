@@ -5,7 +5,7 @@ cc.Class({
         cc.director.getCollisionManager().enabled = true;
     },
 
-    onCollisionEnter (other, self) {
+    onCollisionEnter(other, self) {
         console.log('on collision enter');
 
         // Collider Manager will calculate the value in world coordinate system, and put them into the world property

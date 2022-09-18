@@ -1,162 +1,79 @@
-2022-09-18T05:36:05.020Z - normal: Load ~/.CocosCreator/settings.json
-2022-09-18T05:36:05.059Z - normal: Initializing Asset Database
-2022-09-18T05:36:05.060Z - normal: checking language setting...
-2022-09-18T05:36:05.060Z - normal: Language: en
-2022-09-18T05:36:05.491Z - success: preview server running at http://localhost:7456
-2022-09-18T05:36:05.504Z - success: protocol editor-framework registered
-2022-09-18T05:36:05.504Z - success: protocol app registered
-2022-09-18T05:36:05.504Z - success: protocol theme registered
-2022-09-18T05:36:05.504Z - success: protocol packages registered
-2022-09-18T05:36:05.505Z - success: protocol uuid registerred
-2022-09-18T05:36:05.505Z - success: protocol db registerred
-2022-09-18T05:36:05.505Z - success: protocol thumbnail registerred
-2022-09-18T05:36:05.505Z - success: protocol unpack registerred
-2022-09-18T05:36:05.505Z - success: protocol disable-commonjs registerred
-2022-09-18T05:36:06.989Z - normal: connected!
-2022-09-18T05:36:06.991Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/game-app
-2022-09-18T05:36:06.992Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/game-app
-2022-09-18T05:36:07.244Z - normal: Initializing Cocos2d
-2022-09-18T05:36:07.662Z - normal: Initializing engine extends
-2022-09-18T05:36:07.703Z - success: alipay-adapter loaded
-2022-09-18T05:36:07.721Z - success: asset-db-debugger loaded
-2022-09-18T05:36:07.726Z - success: baidu-adapter loaded
-2022-09-18T05:36:07.730Z - success: color-picker loaded
-2022-09-18T05:36:07.823Z - success: fb-audience-network loaded
-2022-09-18T05:36:07.864Z - success: fb-live-stream loaded
-2022-09-18T05:36:07.866Z - success: google-play-instant loaded
-2022-09-18T05:36:07.869Z - success: huawei-runtime loaded
-2022-09-18T05:36:08.014Z - success: cpk-publish loaded
-2022-09-18T05:36:08.014Z - success: jsb-adapter loaded
-2022-09-18T05:36:08.021Z - success: oppo-runtime loaded
-2022-09-18T05:36:08.033Z - success: package-manager loaded
-2022-09-18T05:36:08.101Z - success: qqplay-adapter loaded
-2022-09-18T05:36:08.102Z - success: runtime-dev-tools loaded
-2022-09-18T05:36:08.134Z - success: sdkbox loaded
-2022-09-18T05:36:08.149Z - success: tester loaded
-2022-09-18T05:36:08.159Z - success: ui-kit-preview-extra loaded
-2022-09-18T05:36:08.170Z - success: ui-kit-preview loaded
-2022-09-18T05:36:08.182Z - success: ui-kit loaded
-2022-09-18T05:36:08.185Z - success: vivo-runtime loaded
-2022-09-18T05:36:08.186Z - success: weapp-adapter loaded
-2022-09-18T05:36:08.186Z - success: xiaomi-adapter loaded
-2022-09-18T05:36:08.188Z - success: alipay-minigame loaded
-2022-09-18T05:36:08.228Z - success: assets loaded
-2022-09-18T05:36:08.238Z - success: builder loaded
-2022-09-18T05:36:08.405Z - success: cocos-services loaded
-2022-09-18T05:36:08.422Z - success: console loaded
-2022-09-18T05:36:08.444Z - success: fb-instant-games loaded
-2022-09-18T05:36:08.456Z - success: game-window loaded
-2022-09-18T05:36:08.456Z - success: google-instant-games loaded
-2022-09-18T05:36:08.470Z - success: hierarchy loaded
-2022-09-18T05:36:08.480Z - success: inspector loaded
-2022-09-18T05:36:08.481Z - success: keystore loaded
-2022-09-18T05:36:08.492Z - success: node-library loaded
-2022-09-18T05:36:08.493Z - success: package-asset loaded
-2022-09-18T05:36:08.493Z - success: preferences loaded
-2022-09-18T05:36:08.505Z - success: project-exporter loaded
-2022-09-18T05:36:08.517Z - success: project-importer loaded
-2022-09-18T05:36:08.527Z - success: project-settings loaded
-2022-09-18T05:36:08.540Z - success: scene loaded
-2022-09-18T05:36:08.541Z - success: simulator-debugger loaded
-2022-09-18T05:36:08.542Z - success: sprite-editor loaded
-2022-09-18T05:36:08.555Z - success: store loaded
-2022-09-18T05:36:08.569Z - success: timeline loaded
-2022-09-18T05:36:08.571Z - success: xiaomi-runtime loaded
-2022-09-18T05:36:12.404Z - normal: Loading packages
-2022-09-18T05:36:12.408Z - normal: Watching packages
-2022-09-18T05:36:12.480Z - normal: Run Application
-2022-09-18T05:36:17.447Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T05:36:22.205Z - info: Cocos Services load base data!
-2022-09-18T05:45:36.782Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T05:45:49.625Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T05:49:30.044Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T05:50:17.538Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T05:51:15.938Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T05:51:48.284Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T05:52:20.587Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T05:54:33.859Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T05:54:51.811Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T05:59:59.123Z - failed: [db-task][sync-changes] Failed to import asset /Users/fe-anhtu-fresher/Desktop/game-app/assets/scripts/core/ShipControl.js, message: Compile error: SyntaxError: /Users/fe-anhtu-fresher/Desktop/game-app/assets/scripts/core/ShipControl.js: Unexpected token (17:8)
-  15 |             const bullet = cc.instantiate(this.bulletPrefab);
-  16 |             bullet.parent = this.
-> 17 |         }
-     |         ^
-  18 |     },
-  19 | });
-  20 | 
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
-    at Parser.pp$3.parseIdentifier (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4332:10)
-    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3517:30)
-    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
-    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
-    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
-    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3367:23)
-2022-09-18T06:00:19.972Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:01:18.201Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:01:35.594Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:03:58.875Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:04:08.531Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:04:39.276Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:05:51.214Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:07:30.961Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:09:47.238Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:11:56.848Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:13:44.276Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:16:36.974Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:16:51.640Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:19:50.053Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:20:25.009Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:21:30.482Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:22:14.878Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:24:10.878Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:24:19.759Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:24:35.175Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:25:27.135Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:29:34.415Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:29:49.001Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:30:04.230Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:31:18.869Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:31:38.717Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:31:55.508Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:32:12.832Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:32:19.178Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:34:18.152Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:35:17.947Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:35:51.211Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:36:33.532Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:37:19.482Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:42:30.028Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:42:34.941Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:43:14.673Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:43:16.210Z - warn: Script attached to "enemyShip" is missing or invalid. Detailed information:
-Node path: "Canvas/enemyShip"
-Script UUID: "9557901d-e80b-4b13-b88b-dbb729ffb049"
-Class ID: "95579Ad6AtLE7iL27cp/7BJ"
-
-2022-09-18T06:44:15.294Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:44:48.545Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:45:18.396Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:46:25.039Z - failed: [db-task][sync-changes] Failed to import asset /Users/fe-anhtu-fresher/Desktop/game-app/assets/scripts/core/EnemyComp.js, message: Compile error: SyntaxError: /Users/fe-anhtu-fresher/Desktop/game-app/assets/scripts/core/EnemyComp.js: Expecting Unicode escape sequence \uXXXX (5:58)
-  3 | 
-  4 |     onLoad() {
-> 5 |         cc.director.getCollisionManager().enabled = true;\
-    |                                                           ^
-  6 |     },
-  7 | 
-  8 |     onCollisionEnter: function (other, self) {
-    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
-    at Parser.readWord1 (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1487:16)
-    at Parser.readWord (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1510:21)
-    at Parser.readToken (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:774:21)
-    at Parser.nextToken (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:766:19)
-    at Parser.next (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:691:10)
-    at Parser.eat (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:698:12)
-    at Parser.pp.isLineTerminator (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1735:15)
-    at Parser.pp.semicolon (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1742:13)
-    at Parser.pp$1.parseExpressionStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2236:8)
-2022-09-18T06:46:28.989Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:47:02.031Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-09-18T06:48:03.546Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T11:51:19.229Z - normal: Load ~/.CocosCreator/settings.json
+2022-09-18T11:51:20.292Z - normal: Initializing Asset Database
+2022-09-18T11:51:20.295Z - normal: checking language setting...
+2022-09-18T11:51:20.295Z - normal: Language: en
+2022-09-18T11:51:20.732Z - success: preview server running at http://localhost:7456
+2022-09-18T11:51:20.733Z - success: protocol editor-framework registered
+2022-09-18T11:51:20.733Z - success: protocol app registered
+2022-09-18T11:51:20.733Z - success: protocol theme registered
+2022-09-18T11:51:20.733Z - success: protocol packages registered
+2022-09-18T11:51:20.733Z - success: protocol uuid registerred
+2022-09-18T11:51:20.733Z - success: protocol db registerred
+2022-09-18T11:51:20.733Z - success: protocol thumbnail registerred
+2022-09-18T11:51:20.733Z - success: protocol unpack registerred
+2022-09-18T11:51:20.733Z - success: protocol disable-commonjs registerred
+2022-09-18T11:51:21.705Z - normal: connected!
+2022-09-18T11:51:21.705Z - normal: Check project D:\bao\game-app
+2022-09-18T11:51:21.707Z - normal: Initializing project D:\bao\game-app
+2022-09-18T11:51:21.956Z - normal: Initializing Cocos2d
+2022-09-18T11:51:22.449Z - normal: Initializing engine extends
+2022-09-18T11:51:22.463Z - success: alipay-adapter loaded
+2022-09-18T11:51:22.471Z - success: asset-db-debugger loaded
+2022-09-18T11:51:22.473Z - success: baidu-adapter loaded
+2022-09-18T11:51:22.474Z - success: color-picker loaded
+2022-09-18T11:51:22.547Z - success: fb-audience-network loaded
+2022-09-18T11:51:22.573Z - success: fb-live-stream loaded
+2022-09-18T11:51:22.574Z - success: google-play-instant loaded
+2022-09-18T11:51:22.577Z - success: huawei-runtime loaded
+2022-09-18T11:51:22.721Z - success: cpk-publish loaded
+2022-09-18T11:51:22.721Z - success: jsb-adapter loaded
+2022-09-18T11:51:22.724Z - success: oppo-runtime loaded
+2022-09-18T11:51:22.725Z - success: package-manager loaded
+2022-09-18T11:51:22.794Z - success: qqplay-adapter loaded
+2022-09-18T11:51:22.795Z - success: runtime-dev-tools loaded
+2022-09-18T11:51:22.797Z - success: sdkbox loaded
+2022-09-18T11:51:22.798Z - success: tester loaded
+2022-09-18T11:51:22.799Z - success: ui-kit-preview-extra loaded
+2022-09-18T11:51:22.800Z - success: ui-kit-preview loaded
+2022-09-18T11:51:22.801Z - success: ui-kit loaded
+2022-09-18T11:51:22.804Z - success: vivo-runtime loaded
+2022-09-18T11:51:22.804Z - success: weapp-adapter loaded
+2022-09-18T11:51:22.804Z - success: xiaomi-adapter loaded
+2022-09-18T11:51:22.805Z - success: alipay-minigame loaded
+2022-09-18T11:51:22.832Z - success: assets loaded
+2022-09-18T11:51:22.833Z - success: builder loaded
+2022-09-18T11:51:22.990Z - success: cocos-services loaded
+2022-09-18T11:51:22.993Z - success: console loaded
+2022-09-18T11:51:23.013Z - success: fb-instant-games loaded
+2022-09-18T11:51:23.015Z - success: game-window loaded
+2022-09-18T11:51:23.015Z - success: google-instant-games loaded
+2022-09-18T11:51:23.017Z - success: hierarchy loaded
+2022-09-18T11:51:23.021Z - success: inspector loaded
+2022-09-18T11:51:23.022Z - success: keystore loaded
+2022-09-18T11:51:23.024Z - success: node-library loaded
+2022-09-18T11:51:23.025Z - success: package-asset loaded
+2022-09-18T11:51:23.025Z - success: preferences loaded
+2022-09-18T11:51:23.026Z - success: project-exporter loaded
+2022-09-18T11:51:23.027Z - success: project-importer loaded
+2022-09-18T11:51:23.028Z - success: project-settings loaded
+2022-09-18T11:51:23.031Z - success: scene loaded
+2022-09-18T11:51:23.031Z - success: simulator-debugger loaded
+2022-09-18T11:51:23.032Z - success: sprite-editor loaded
+2022-09-18T11:51:23.033Z - success: store loaded
+2022-09-18T11:51:23.036Z - success: timeline loaded
+2022-09-18T11:51:23.038Z - success: xiaomi-runtime loaded
+2022-09-18T11:51:26.123Z - info: Cocos Services load base data!
+2022-09-18T11:51:27.382Z - normal: Loading packages
+2022-09-18T11:51:27.385Z - normal: Watching packages
+2022-09-18T11:51:27.567Z - normal: Run Application
+2022-09-18T11:51:30.691Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T11:52:10.434Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T11:53:57.570Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T11:59:25.148Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T12:00:02.879Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T12:00:11.414Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T12:01:25.573Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T12:06:27.832Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T12:07:46.048Z - info: Only the prefab node "bullet" and its child nodes are saved.
+2022-09-18T12:08:15.699Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T12:09:27.818Z - warn: Can not instantiate CCClass 'undefined' with arguments.

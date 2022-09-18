@@ -159,7 +159,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 482.37614990793236
+      "z": 459.9446906489285
     },
     "_scale": {
       "__type__": "cc.Vec3",
@@ -443,7 +443,7 @@
     "steerForward": {
       "__uuid__": "4877a30e-f711-403d-8a37-96dcaee7a0e8"
     },
-    "speed": 100,
+    "speed": 300,
     "_id": "baRosPaiRPObmyTNbG0NZV"
   },
   {
