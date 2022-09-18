@@ -725,8 +725,8 @@
     "relativePath": "data"
   },
   "9ac11c5b-199e-4944-8a39-174fb077f10d": {
-    "asset": 1663481634711,
-    "meta": 1663481634716,
+    "asset": 1663483633561,
+    "meta": 1663483633572,
     "relativePath": "data/scenes/shooter.fire"
   },
   "08e32b41-bca9-478b-95e1-c3f938eeb6b0": {
@@ -860,8 +860,13 @@
     "relativePath": "scripts/core/BulletComp.js"
   },
   "a4e113e3-20c1-4c4f-83ac-6bbd20db8053": {
-    "asset": 1663482324182,
-    "meta": 1663482326687,
+    "asset": 1663483038060,
+    "meta": 1663483039035,
     "relativePath": "scripts/core/ShipControl.js"
+  },
+  "9557901d-e80b-4b13-b88b-dbb729ffb049": {
+    "asset": 1663483681341,
+    "meta": 1663483683094,
+    "relativePath": "scripts/core/EnemyComp.js"
   }
 }
