@@ -679,11 +679,6 @@
     "meta": 1663499705078,
     "relativePath": "scripts\\core"
   },
-  "4a1532b1-ae50-4f46-8167-5d0c3ae6d0da": {
-    "asset": 1663499705079,
-    "meta": 1663501886656,
-    "relativePath": "scripts\\core\\GameManager.js"
-  },
   "8da8a522-779b-4c9e-9c18-3c6d830cf93e": {
     "asset": 1663501836795,
     "meta": 1663499705080,
@@ -725,8 +720,8 @@
     "relativePath": "data"
   },
   "9ac11c5b-199e-4944-8a39-174fb077f10d": {
-    "asset": 1663502537310,
-    "meta": 1663502537322,
+    "asset": 1663509427875,
+    "meta": 1663509427886,
     "relativePath": "data\\scenes\\shooter.fire"
   },
   "08e32b41-bca9-478b-95e1-c3f938eeb6b0": {
@@ -850,23 +845,38 @@
     "relativePath": "data\\sprites\\space-shooter\\preview.jpg"
   },
   "ffbb1198-a2db-405b-8afe-b25e8b38326c": {
-    "asset": 1663502866059,
-    "meta": 1663502866096,
+    "asset": 1663506159545,
+    "meta": 1663506159553,
     "relativePath": "data\\prefab\\bullet.prefab"
-  },
-  "201f5424-e6ea-4943-a059-2a7cff4ade02": {
-    "asset": 1663499705079,
-    "meta": 1663501886641,
-    "relativePath": "scripts\\core\\BulletComp.js"
   },
   "9557901d-e80b-4b13-b88b-dbb729ffb049": {
     "asset": 1663502892788,
     "meta": 1663502895245,
     "relativePath": "scripts\\core\\EnemyComp.js"
   },
+  "5bf442d8-47b3-413c-8633-771f81f82bb6": {
+    "asset": 1663506102520,
+    "meta": 1663506102535,
+    "relativePath": "data\\sprites\\space-shooter\\png\\impact.anim"
+  },
+  "3864ffc8-aed0-40af-8392-4c9fbc37d2c4": {
+    "asset": 1663506155408,
+    "meta": 1663506155414,
+    "relativePath": "data\\prefab\\impact.prefab"
+  },
+  "201f5424-e6ea-4943-a059-2a7cff4ade02": {
+    "asset": 1663507121992,
+    "meta": 1663507123762,
+    "relativePath": "scripts\\core\\BulletComp.js"
+  },
+  "4a1532b1-ae50-4f46-8167-5d0c3ae6d0da": {
+    "asset": 1663507736734,
+    "meta": 1663507753015,
+    "relativePath": "scripts\\core\\GameManager.js"
+  },
   "a4e113e3-20c1-4c4f-83ac-6bbd20db8053": {
-    "asset": 1663502964423,
-    "meta": 1663502967351,
+    "asset": 1663509922854,
+    "meta": 1663509924266,
     "relativePath": "scripts\\core\\ShipControl.js"
   }
 }

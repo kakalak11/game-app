@@ -2,12 +2,10 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        bulletPrefab: cc.Prefab,
-        bulletHolder: cc.Node,
-
         steerLeft: cc.SpriteFrame,
         steerRight: cc.SpriteFrame,
         steerForward: cc.SpriteFrame,
+        ship: cc.Node,
 
         speed: 500,
     },
@@ -16,77 +14,64 @@ cc.Class({
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
 
-        this._sprite = this.node.getComponentInChildren(cc.Sprite);
+        this._sprite = this.ship.getComponentInChildren(cc.Sprite);
         this._canMoveHorizontally = true;
         this._canMoveVertically = true;
+        this._isMovingY = true;
+        this._isMovingX = true;
+        this.directionX = 0;
+        this.directionY = 0;
     },
 
     onKeyUp(event) {
         if (event.keyCode == cc.macro.KEY.space) {
-            const bullet = cc.instantiate(this.bulletPrefab);
-            bullet.parent = this.bulletHolder;
-            bullet.position = this.node.getPosition();
+            this.node.emit('BULLET_FIRE', this.ship.position);
             return;
         }
-        const isReturnToIdle = event.keyCode === cc.macro.KEY.d || event.keyCode === cc.macro.KEY.a;
-        if (isReturnToIdle) {
-            this._canMoveHorizontally = true;
+        const isStopX = event.keyCode === cc.macro.KEY.d || event.keyCode === cc.macro.KEY.a;
+        if (isStopX) {
             this._sprite.spriteFrame = this.steerForward;
-            if (this.horizontalTween) this.horizontalTween.stop();
+            this.directionX = 0;
+            this.callbackX && this.callbackX();
+            this.callbackX = null;
         }
-
-        const stopVertical = event.keyCode == cc.macro.KEY.w || event.keyCode == cc.macro.KEY.s;
-        if (stopVertical) {
+        const isStopY = event.keyCode == cc.macro.KEY.w || event.keyCode == cc.macro.KEY.s;
+        if (isStopY) {
             this._canMoveVertically = true;
-            this.verticalTween.stop();
+            this.directionY = 0;
+            this.callbackY && this.callbackY();
+            this.callbackY = null;
         }
-
-        cc.warn(isReturnToIdle);
     },
 
     onKeyDown(event) {
-        if (this._canMoveHorizontally) {
-            this._canMoveHorizontally = false;
-            if (this.horizontalTween) this.horizontalTween.stop();
-
-            if (event.keyCode == cc.macro.KEY.d) {
-                this._steerHorizontal({ isRight: true });
-            }
-
-            if (event.keyCode == cc.macro.KEY.a) {
-                this._steerHorizontal({ isRight: false });
-            }
-        }
-
-        if (this._canMoveVertically) {
-            this._canMoveVertically = false;
-            if (this.verticalTween) this.verticalTween.stop();
-
-            if (event.keyCode == cc.macro.KEY.w) {
-                this._steerVertical({ isForward: true });
-            }
-            if (event.keyCode == cc.macro.KEY.s) {
-                this._steerVertical({ isForward: false });
-            }
+        switch (event.keyCode) {
+            case cc.macro.KEY.d:
+                this.directionX = 1;
+                if (this.directionX != 0) this.callbackX = () => this.directionX = 1;
+                break;
+            case cc.macro.KEY.a:
+                this.directionX = -1;
+                if (this.directionX != 0) this.callbackX = () => this.directionX = -1;
+                break;
+            case cc.macro.KEY.w:
+                this.directionY = 1;
+                if (this.directionY != 0) this.callbackY = () => this.directionY = 1;
+                break;
+            case cc.macro.KEY.s:
+                this.directionY = -1;
+                if (this.directionY != 0) this.callbackY = () => this.directionY = -1;
+                break;
         }
     },
 
-    _steerHorizontal({ isRight = true }) {
-        this._changeStatic(isRight);
-
-        this.horizontalTween = cc.tween(this.node)
-            .repeatForever(
-                cc.tween()
-                    .by(1, { x: isRight ? this.speed : this.speed * -1 })
-            ).start();
-    },
-
-    _steerVertical({ isForward = true }) {
-        this.verticalTween = cc.tween(this.node)
-            .repeatForever(
-                cc.tween()
-                    .by(1, { y: isForward ? this.speed : this.speed * -1 })
-            ).start();
+    update() {
+        if (this._isMovingX) {
+            this.ship.x += this.speed * this.directionX;
+        }
+        if (this._isMovingY) {
+            this.ship.y += this.speed * this.directionY;
+        }
     },
 
     _changeStatic(isRight) {

@@ -10,7 +10,6 @@ cc.Class({
     },
 
     onLoad() {
-
         cc.tween(this.node).repeatForever(
             cc.tween()
                 .by(1, { y: this.speed }))
@@ -21,6 +20,16 @@ cc.Class({
         if (this.node.y > this.canvasSize.width + this.node.width) {
             this.node.destroy();
         }
+    },
+
+    onCollisionEnter(other, self) {
+        console.log('on collision enter');
+        this.node.destroy();
+
+        const eventObj = new cc.Event.EventCustom('BULLET_IMPACT', true);
+        eventObj.position = this.node.getPosition();
+
+        this.node.dispatchEvent(eventObj);
     },
 
     onDestroy() {
