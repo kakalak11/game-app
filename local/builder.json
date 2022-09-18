@@ -1,0 +1,19 @@
+{
+  "actualPlatform": "web-desktop",
+  "apiLevel": "",
+  "appABIs": [],
+  "buildPath": "/Users/fe-anhtu-fresher/Desktop/cocos/2048-build",
+  "debug": false,
+  "embedWebDebugger": false,
+  "keystoreAlias": "",
+  "keystoreAliasPassword": "",
+  "keystorePassword": "",
+  "keystorePath": "",
+  "platform": "web-desktop",
+  "previewHeight": 800,
+  "previewWidth": 500,
+  "sourceMaps": false,
+  "template": "link",
+  "useDebugKeystore": true,
+  "vsVersion": "auto"
+}

@@ -1,0 +1,112 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "worker": {},
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 0,
+      "y": 0,
+      "width": 1680,
+      "height": 1050,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 595,
+                "type": "panel",
+                "width": 300
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 393,
+                "type": "panel",
+                "width": 300
+              }
+            ],
+            "height": 990,
+            "type": "dock-v",
+            "width": 300
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 683,
+                "type": "panel",
+                "width": 879.984375
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline",
+                  "game-window"
+                ],
+                "height": 305,
+                "type": "panel",
+                "width": 879.984375
+              }
+            ],
+            "height": 990,
+            "type": "dock-v",
+            "width": 879.984375
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector",
+              "node-library"
+            ],
+            "height": 990,
+            "type": "panel",
+            "width": 496
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "console",
+        "timeline",
+        "game-window",
+        "inspector",
+        "node-library",
+        "scene"
+      ]
+    }
+  },
+  "panels": {
+    "builder": {
+      "x": 627,
+      "y": 140,
+      "width": 670,
+      "height": 739
+    },
+    "preferences": {
+      "x": 0,
+      "y": 0,
+      "width": 1680,
+      "height": 1050
+    },
+    "project-settings": {
+      "x": 662,
+      "y": 240,
+      "width": 600,
+      "height": 565
+    }
+  }
+}
