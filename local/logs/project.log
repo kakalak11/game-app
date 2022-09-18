@@ -1,99 +1,69 @@
-2022-04-09T08:14:00.610Z - normal: Load ~/.CocosCreator/settings.json
-2022-04-09T08:14:00.659Z - normal: Initializing Asset Database
-2022-04-09T08:14:00.662Z - normal: checking language setting...
-2022-04-09T08:14:00.662Z - normal: Language: en
-2022-04-09T08:14:01.333Z - success: preview server running at http://localhost:7456
-2022-04-09T08:14:01.344Z - success: protocol editor-framework registered
-2022-04-09T08:14:01.344Z - success: protocol app registered
-2022-04-09T08:14:01.344Z - success: protocol theme registered
-2022-04-09T08:14:01.344Z - success: protocol packages registered
-2022-04-09T08:14:01.344Z - success: protocol uuid registerred
-2022-04-09T08:14:01.344Z - success: protocol db registerred
-2022-04-09T08:14:01.344Z - success: protocol thumbnail registerred
-2022-04-09T08:14:01.344Z - success: protocol unpack registerred
-2022-04-09T08:14:01.345Z - success: protocol disable-commonjs registerred
-2022-04-09T08:14:02.513Z - normal: connected!
-2022-04-09T08:14:02.514Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/2048/2048-project
-2022-04-09T08:14:02.516Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/2048/2048-project
-2022-04-09T08:14:02.879Z - normal: Initializing Cocos2d
-2022-04-09T08:14:03.533Z - normal: Initializing engine extends
-2022-04-09T08:14:03.571Z - success: alipay-adapter loaded
-2022-04-09T08:14:03.579Z - success: asset-db-debugger loaded
-2022-04-09T08:14:03.585Z - success: baidu-adapter loaded
-2022-04-09T08:14:03.588Z - success: color-picker loaded
-2022-04-09T08:14:03.741Z - success: fb-audience-network loaded
-2022-04-09T08:14:03.793Z - success: fb-live-stream loaded
-2022-04-09T08:14:03.795Z - success: google-play-instant loaded
-2022-04-09T08:14:03.803Z - success: huawei-runtime loaded
-2022-04-09T08:14:04.028Z - success: cpk-publish loaded
-2022-04-09T08:14:04.029Z - success: jsb-adapter loaded
-2022-04-09T08:14:04.034Z - success: oppo-runtime loaded
-2022-04-09T08:14:04.039Z - success: package-manager loaded
-2022-04-09T08:14:04.178Z - success: qqplay-adapter loaded
-2022-04-09T08:14:04.181Z - success: runtime-dev-tools loaded
-2022-04-09T08:14:04.206Z - success: sdkbox loaded
-2022-04-09T08:14:04.211Z - success: tester loaded
-2022-04-09T08:14:04.214Z - success: ui-kit-preview-extra loaded
-2022-04-09T08:14:04.219Z - success: ui-kit-preview loaded
-2022-04-09T08:14:04.222Z - success: ui-kit loaded
-2022-04-09T08:14:04.228Z - success: vivo-runtime loaded
-2022-04-09T08:14:04.229Z - success: weapp-adapter loaded
-2022-04-09T08:14:04.230Z - success: xiaomi-adapter loaded
-2022-04-09T08:14:04.234Z - success: alipay-minigame loaded
-2022-04-09T08:14:04.271Z - success: assets loaded
-2022-04-09T08:14:04.274Z - success: builder loaded
-2022-04-09T08:14:04.523Z - success: cocos-services loaded
-2022-04-09T08:14:04.529Z - success: console loaded
-2022-04-09T08:14:04.554Z - success: fb-instant-games loaded
-2022-04-09T08:14:04.557Z - success: game-window loaded
-2022-04-09T08:14:04.559Z - success: google-instant-games loaded
-2022-04-09T08:14:04.568Z - success: hierarchy loaded
-2022-04-09T08:14:04.574Z - success: inspector loaded
-2022-04-09T08:14:04.575Z - success: keystore loaded
-2022-04-09T08:14:04.580Z - success: node-library loaded
-2022-04-09T08:14:04.581Z - success: package-asset loaded
-2022-04-09T08:14:04.583Z - success: preferences loaded
-2022-04-09T08:14:04.585Z - success: project-exporter loaded
-2022-04-09T08:14:04.589Z - success: project-importer loaded
-2022-04-09T08:14:04.592Z - success: project-settings loaded
-2022-04-09T08:14:04.596Z - success: scene loaded
-2022-04-09T08:14:04.598Z - success: simulator-debugger loaded
-2022-04-09T08:14:04.600Z - success: sprite-editor loaded
-2022-04-09T08:14:04.603Z - success: store loaded
-2022-04-09T08:14:04.609Z - success: timeline loaded
-2022-04-09T08:14:04.613Z - success: xiaomi-runtime loaded
-2022-04-09T08:14:06.512Z - info: Cocos Services load base data!
-2022-04-09T08:14:08.607Z - normal: Loading packages
-2022-04-09T08:14:08.611Z - normal: Watching packages
-2022-04-09T08:14:08.695Z - normal: Run Application
-2022-04-09T08:14:12.229Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T08:16:41.241Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T08:16:54.809Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T08:18:20.395Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T08:30:10.524Z - warn: [db-task][sync-changes] Backup unused meta file: db://assets/images.meta
-2022-04-09T08:50:35.988Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T08:51:15.567Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T08:51:22.021Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T08:54:15.468Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T08:55:52.221Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T08:55:56.067Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T08:57:16.500Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:00:50.088Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:00:52.678Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:01:56.719Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:01:58.838Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:02:51.532Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:03:20.897Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:03:58.058Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:04:13.127Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:04:15.681Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:04:57.066Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:07:25.974Z - info: Only the prefab node "TilePrefab" and its child nodes are saved.
-2022-04-09T09:07:51.239Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:08:18.162Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:08:25.385Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:12:01.405Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:12:06.107Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:12:10.352Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:18:41.632Z - warn: Can not instantiate CCClass 'undefined' with arguments.
-2022-04-09T09:20:21.276Z - info: Only the prefab node "TilePrefab" and its child nodes are saved.
+2022-09-18T05:36:05.020Z - normal: Load ~/.CocosCreator/settings.json
+2022-09-18T05:36:05.059Z - normal: Initializing Asset Database
+2022-09-18T05:36:05.060Z - normal: checking language setting...
+2022-09-18T05:36:05.060Z - normal: Language: en
+2022-09-18T05:36:05.491Z - success: preview server running at http://localhost:7456
+2022-09-18T05:36:05.504Z - success: protocol editor-framework registered
+2022-09-18T05:36:05.504Z - success: protocol app registered
+2022-09-18T05:36:05.504Z - success: protocol theme registered
+2022-09-18T05:36:05.504Z - success: protocol packages registered
+2022-09-18T05:36:05.505Z - success: protocol uuid registerred
+2022-09-18T05:36:05.505Z - success: protocol db registerred
+2022-09-18T05:36:05.505Z - success: protocol thumbnail registerred
+2022-09-18T05:36:05.505Z - success: protocol unpack registerred
+2022-09-18T05:36:05.505Z - success: protocol disable-commonjs registerred
+2022-09-18T05:36:06.989Z - normal: connected!
+2022-09-18T05:36:06.991Z - normal: Check project /Users/fe-anhtu-fresher/Desktop/game-app
+2022-09-18T05:36:06.992Z - normal: Initializing project /Users/fe-anhtu-fresher/Desktop/game-app
+2022-09-18T05:36:07.244Z - normal: Initializing Cocos2d
+2022-09-18T05:36:07.662Z - normal: Initializing engine extends
+2022-09-18T05:36:07.703Z - success: alipay-adapter loaded
+2022-09-18T05:36:07.721Z - success: asset-db-debugger loaded
+2022-09-18T05:36:07.726Z - success: baidu-adapter loaded
+2022-09-18T05:36:07.730Z - success: color-picker loaded
+2022-09-18T05:36:07.823Z - success: fb-audience-network loaded
+2022-09-18T05:36:07.864Z - success: fb-live-stream loaded
+2022-09-18T05:36:07.866Z - success: google-play-instant loaded
+2022-09-18T05:36:07.869Z - success: huawei-runtime loaded
+2022-09-18T05:36:08.014Z - success: cpk-publish loaded
+2022-09-18T05:36:08.014Z - success: jsb-adapter loaded
+2022-09-18T05:36:08.021Z - success: oppo-runtime loaded
+2022-09-18T05:36:08.033Z - success: package-manager loaded
+2022-09-18T05:36:08.101Z - success: qqplay-adapter loaded
+2022-09-18T05:36:08.102Z - success: runtime-dev-tools loaded
+2022-09-18T05:36:08.134Z - success: sdkbox loaded
+2022-09-18T05:36:08.149Z - success: tester loaded
+2022-09-18T05:36:08.159Z - success: ui-kit-preview-extra loaded
+2022-09-18T05:36:08.170Z - success: ui-kit-preview loaded
+2022-09-18T05:36:08.182Z - success: ui-kit loaded
+2022-09-18T05:36:08.185Z - success: vivo-runtime loaded
+2022-09-18T05:36:08.186Z - success: weapp-adapter loaded
+2022-09-18T05:36:08.186Z - success: xiaomi-adapter loaded
+2022-09-18T05:36:08.188Z - success: alipay-minigame loaded
+2022-09-18T05:36:08.228Z - success: assets loaded
+2022-09-18T05:36:08.238Z - success: builder loaded
+2022-09-18T05:36:08.405Z - success: cocos-services loaded
+2022-09-18T05:36:08.422Z - success: console loaded
+2022-09-18T05:36:08.444Z - success: fb-instant-games loaded
+2022-09-18T05:36:08.456Z - success: game-window loaded
+2022-09-18T05:36:08.456Z - success: google-instant-games loaded
+2022-09-18T05:36:08.470Z - success: hierarchy loaded
+2022-09-18T05:36:08.480Z - success: inspector loaded
+2022-09-18T05:36:08.481Z - success: keystore loaded
+2022-09-18T05:36:08.492Z - success: node-library loaded
+2022-09-18T05:36:08.493Z - success: package-asset loaded
+2022-09-18T05:36:08.493Z - success: preferences loaded
+2022-09-18T05:36:08.505Z - success: project-exporter loaded
+2022-09-18T05:36:08.517Z - success: project-importer loaded
+2022-09-18T05:36:08.527Z - success: project-settings loaded
+2022-09-18T05:36:08.540Z - success: scene loaded
+2022-09-18T05:36:08.541Z - success: simulator-debugger loaded
+2022-09-18T05:36:08.542Z - success: sprite-editor loaded
+2022-09-18T05:36:08.555Z - success: store loaded
+2022-09-18T05:36:08.569Z - success: timeline loaded
+2022-09-18T05:36:08.571Z - success: xiaomi-runtime loaded
+2022-09-18T05:36:12.404Z - normal: Loading packages
+2022-09-18T05:36:12.408Z - normal: Watching packages
+2022-09-18T05:36:12.480Z - normal: Run Application
+2022-09-18T05:36:17.447Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T05:36:22.205Z - info: Cocos Services load base data!

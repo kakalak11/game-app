@@ -1,18 +1,8 @@
 "use strict";
 cc._RF.push(module, '672b0CRpudHdImKuG8hyh1D', 'soundScript');
-// script/soundScript.js
+// scripts/out-of-date/soundScript.js
 
 'use strict';
-
-// Learn cc.Class:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://docs.cocos2d-x.org/creator/manual/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://docs.cocos2d-x.org/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] https://www.cocos2d-x.org/docs/creator/manual/en/scripting/life-cycle-callbacks.html
 
 var Emitter = require('mEmitter');
 cc.Class({
@@ -29,6 +19,11 @@ cc.Class({
     },
 
     // LIFE-CYCLE CALLBACKS:
+
+    onLoad: function onLoad() {
+        Emitter.instance.registerEvent('sound', this._playSound.bind(this));
+    },
+
 
     onClickSound: function onClickSound() {
         if (!this._muted) {
@@ -48,32 +43,25 @@ cc.Class({
     },
 
     _playSound: function _playSound(data) {
-        if (data === 'swipe') {
-            this.swipeSound.play();
-            return;
-        }
-        if (data === 'combine') {
-            this.combineSound.play();
-            return;
-        }
-
-        if (data === 'gameWin') {
-            this.gameWin.play();
-            return;
-        }
-        if (data === 'gameOver') {
-            this.gameOver.play();
-            return;
-        }
-        if (data === 'undo') {
-            this.undoSound.play();
-            return;
+        switch (data) {
+            case 'swipe':
+                this.swipeSound.play();
+                break;
+            case 'combine':
+                this.combineSound.play();
+                break;
+            case 'gameWin':
+                this.gameWin.play();
+                break;
+            case 'gameOver':
+                this.gameOver.play();
+                break;
+            case 'undo':
+                this.undoSound.play();
+                break;
         }
     },
 
-    onLoad: function onLoad() {
-        Emitter.instance.registerEvent('sound', this._playSound.bind(this));
-    },
     start: function start() {}
 }
 
