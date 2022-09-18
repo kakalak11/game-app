@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "speedLine",
+    "texture": "3752b03e-95b1-4211-a465-299bad177168",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      7,
+      186
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      7,
+      186
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "laserRedShot",
+    "texture": "0c13ce37-65f8-4a51-8a97-7e702702cca8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      56,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      54
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "nebula",
+    "texture": "1f15a61a-84fe-4076-bca6-b06f4d0f5660",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      241,
+      168
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      241,
+      168
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

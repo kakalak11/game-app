@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "starBig",
+    "texture": "6e9cef56-553f-4aea-a4a7-777a384b04ca",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      23,
+      21
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      23,
+      21
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

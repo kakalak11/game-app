@@ -728,5 +728,125 @@
     "asset": 1663479516129,
     "meta": 1663479521562,
     "relativePath": "data/scenes/shooter.fire"
+  },
+  "08e32b41-bca9-478b-95e1-c3f938eeb6b0": {
+    "asset": 1663479765557,
+    "meta": 1663479765549,
+    "relativePath": "data/sprites/space-shooter"
+  },
+  "8a9a5c37-05f6-4911-9216-e9870574a9a3": {
+    "asset": 1663479765557,
+    "meta": 1663479765550,
+    "relativePath": "data/sprites/space-shooter/png"
+  },
+  "721e04cf-2b49-4e2f-8227-3f24681e8ced": {
+    "asset": 1663479765552,
+    "meta": 1663479765550,
+    "relativePath": "data/sprites/space-shooter/png/Background"
+  },
+  "502cc8db-3be6-4687-b79c-a3f2818eb1ae": {
+    "asset": 1349678984000,
+    "meta": 1663479765590,
+    "relativePath": "data/sprites/space-shooter/png/Background/backgroundColor.png"
+  },
+  "1f15a61a-84fe-4076-bca6-b06f4d0f5660": {
+    "asset": 1349678942000,
+    "meta": 1663479765592,
+    "relativePath": "data/sprites/space-shooter/png/Background/nebula.png"
+  },
+  "3752b03e-95b1-4211-a465-299bad177168": {
+    "asset": 1349678972000,
+    "meta": 1663479765612,
+    "relativePath": "data/sprites/space-shooter/png/Background/speedLine.png"
+  },
+  "8931734d-e07c-47fd-a037-e09dd0120d01": {
+    "asset": 1349679080000,
+    "meta": 1663479765615,
+    "relativePath": "data/sprites/space-shooter/png/Background/starBackground.png"
+  },
+  "6e9cef56-553f-4aea-a4a7-777a384b04ca": {
+    "asset": 1349678962000,
+    "meta": 1663479765620,
+    "relativePath": "data/sprites/space-shooter/png/Background/starBig.png"
+  },
+  "0a2ea8a9-e247-4b96-a795-2efe5b2a5be3": {
+    "asset": 1349678952000,
+    "meta": 1663479765622,
+    "relativePath": "data/sprites/space-shooter/png/Background/starSmall.png"
+  },
+  "6c04e7db-2037-4781-97c5-f9e1ab7836cf": {
+    "asset": 1349678666000,
+    "meta": 1663479765631,
+    "relativePath": "data/sprites/space-shooter/png/enemyShip.png"
+  },
+  "88047ee0-8ed9-47d1-ac96-c5b1c72ee642": {
+    "asset": 1349678684000,
+    "meta": 1663479765634,
+    "relativePath": "data/sprites/space-shooter/png/enemyUFO.png"
+  },
+  "7e88c147-141c-487e-a73d-0d5f2b579b18": {
+    "asset": 1349678730000,
+    "meta": 1663479765640,
+    "relativePath": "data/sprites/space-shooter/png/laserGreen.png"
+  },
+  "3561038c-d9b3-4faa-b5e5-e9a44d15aac2": {
+    "asset": 1349678722000,
+    "meta": 1663479765645,
+    "relativePath": "data/sprites/space-shooter/png/laserGreenShot.png"
+  },
+  "64794b7c-949d-4768-ace0-de674f26eee7": {
+    "asset": 1349678740000,
+    "meta": 1663479765648,
+    "relativePath": "data/sprites/space-shooter/png/laserRed.png"
+  },
+  "00221400-d39d-43ae-b264-8ff043753d51": {
+    "asset": 1349678786000,
+    "meta": 1663479765656,
+    "relativePath": "data/sprites/space-shooter/png/life.png"
+  },
+  "0c13ce37-65f8-4a51-8a97-7e702702cca8": {
+    "asset": 1349678750000,
+    "meta": 1663479765657,
+    "relativePath": "data/sprites/space-shooter/png/laserRedShot.png"
+  },
+  "6021ea33-e887-43a5-9694-a8db301887d6": {
+    "asset": 1349678812000,
+    "meta": 1663479765666,
+    "relativePath": "data/sprites/space-shooter/png/meteorSmall.png"
+  },
+  "eb9504f8-532d-4c82-916f-0c95e11ad37c": {
+    "asset": 1349678804000,
+    "meta": 1663479765671,
+    "relativePath": "data/sprites/space-shooter/png/meteorBig.png"
+  },
+  "bd32ba01-6281-4fa6-8f7e-b0055841a120": {
+    "asset": 1349678760000,
+    "meta": 1663479765680,
+    "relativePath": "data/sprites/space-shooter/png/player.png"
+  },
+  "91bc6966-ff2d-4294-8d28-d96a5485b1ad": {
+    "asset": 1349678676000,
+    "meta": 1663479765684,
+    "relativePath": "data/sprites/space-shooter/png/playerDamaged.png"
+  },
+  "654c7f27-b224-45de-a20c-94ccc55ff86b": {
+    "asset": 1349678694000,
+    "meta": 1663479765692,
+    "relativePath": "data/sprites/space-shooter/png/playerLeft.png"
+  },
+  "c719e7cb-4838-4235-a1e9-eaa791f522a5": {
+    "asset": 1349678704000,
+    "meta": 1663479765695,
+    "relativePath": "data/sprites/space-shooter/png/playerRight.png"
+  },
+  "0dcc15d9-c9aa-481b-bc0d-f2ebf1b15bbc": {
+    "asset": 1349678772000,
+    "meta": 1663479765706,
+    "relativePath": "data/sprites/space-shooter/png/shield.png"
+  },
+  "92734c20-ed1b-4d56-841f-dcc34df0f791": {
+    "asset": 1349679644000,
+    "meta": 1663479765712,
+    "relativePath": "data/sprites/space-shooter/preview.jpg"
   }
 }
