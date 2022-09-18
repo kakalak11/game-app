@@ -435,6 +435,15 @@
     "bulletHolder": {
       "__id__": 5
     },
+    "steerLeft": {
+      "__uuid__": "79e45033-c1cb-4a03-8797-debb23d3dad1"
+    },
+    "steerRight": {
+      "__uuid__": "154b0897-bfca-40ad-81df-6f0806d6e0b8"
+    },
+    "steerForward": {
+      "__uuid__": "4877a30e-f711-403d-8a37-96dcaee7a0e8"
+    },
     "_id": "baRosPaiRPObmyTNbG0NZV"
   },
   {
