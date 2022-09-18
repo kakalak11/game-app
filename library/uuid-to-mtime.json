@@ -723,5 +723,10 @@
     "asset": 1663479399272,
     "meta": 1663479399273,
     "relativePath": "data"
+  },
+  "9ac11c5b-199e-4944-8a39-174fb077f10d": {
+    "asset": 1663479516129,
+    "meta": 1663479521562,
+    "relativePath": "data/scenes/shooter.fire"
   }
 }
