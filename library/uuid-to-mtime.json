@@ -725,8 +725,8 @@
     "relativePath": "data"
   },
   "9ac11c5b-199e-4944-8a39-174fb077f10d": {
-    "asset": 1663479516129,
-    "meta": 1663479521562,
+    "asset": 1663481419640,
+    "meta": 1663481419649,
     "relativePath": "data/scenes/shooter.fire"
   },
   "08e32b41-bca9-478b-95e1-c3f938eeb6b0": {
@@ -848,5 +848,20 @@
     "asset": 1349679644000,
     "meta": 1663479765712,
     "relativePath": "data/sprites/space-shooter/preview.jpg"
+  },
+  "ffbb1198-a2db-405b-8afe-b25e8b38326c": {
+    "asset": 1663480361843,
+    "meta": 1663480361845,
+    "relativePath": "data/prefab/bullet.prefab"
+  },
+  "a4e113e3-20c1-4c4f-83ac-6bbd20db8053": {
+    "asset": 1663480890747,
+    "meta": 1663480895144,
+    "relativePath": "scripts/core/ShipControl.js"
+  },
+  "201f5424-e6ea-4943-a059-2a7cff4ade02": {
+    "asset": 1663481385901,
+    "meta": 1663481386764,
+    "relativePath": "scripts/core/BulletComp.js"
   }
 }

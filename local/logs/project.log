@@ -67,3 +67,39 @@
 2022-09-18T05:36:12.480Z - normal: Run Application
 2022-09-18T05:36:17.447Z - warn: Can not instantiate CCClass 'undefined' with arguments.
 2022-09-18T05:36:22.205Z - info: Cocos Services load base data!
+2022-09-18T05:45:36.782Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T05:45:49.625Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T05:49:30.044Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T05:50:17.538Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T05:51:15.938Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T05:51:48.284Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T05:52:20.587Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T05:54:33.859Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T05:54:51.811Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T05:59:59.123Z - failed: [db-task][sync-changes] Failed to import asset /Users/fe-anhtu-fresher/Desktop/game-app/assets/scripts/core/ShipControl.js, message: Compile error: SyntaxError: /Users/fe-anhtu-fresher/Desktop/game-app/assets/scripts/core/ShipControl.js: Unexpected token (17:8)
+  15 |             const bullet = cc.instantiate(this.bulletPrefab);
+  16 |             bullet.parent = this.
+> 17 |         }
+     |         ^
+  18 |     },
+  19 | });
+  20 | 
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$3.parseIdentifier (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4332:10)
+    at Parser.pp$3.parseSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3517:30)
+    at Parser.pp$3.parseExprSubscripts (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3504:15)
+    at Parser.pp$3.parseMaybeUnary (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3474:19)
+    at Parser.pp$3.parseExprOps (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3404:19)
+    at Parser.pp$3.parseMaybeConditional (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3381:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3344:19)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3367:23)
+2022-09-18T06:00:19.972Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T06:01:18.201Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T06:01:35.594Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T06:03:58.875Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T06:04:08.531Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T06:04:39.276Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T06:05:51.214Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T06:07:30.961Z - warn: Can not instantiate CCClass 'undefined' with arguments.
+2022-09-18T06:09:47.238Z - warn: Can not instantiate CCClass 'undefined' with arguments.
