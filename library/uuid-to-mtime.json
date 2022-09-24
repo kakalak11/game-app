@@ -845,8 +845,8 @@
     "relativePath": "data/prefab/bullet.prefab"
   },
   "9ac11c5b-199e-4944-8a39-174fb077f10d": {
-    "asset": 1664003114601,
-    "meta": 1664003127483,
+    "asset": 1664003500221,
+    "meta": 1664003500233,
     "relativePath": "data/scenes/shooter.fire"
   },
   "201f5424-e6ea-4943-a059-2a7cff4ade02": {
@@ -858,11 +858,6 @@
     "asset": 1664003114602,
     "meta": 1664003127520,
     "relativePath": "scripts/core/EnemyComp.js"
-  },
-  "a4e113e3-20c1-4c4f-83ac-6bbd20db8053": {
-    "asset": 1664003114602,
-    "meta": 1664003074295,
-    "relativePath": "scripts/core/ShipControl.js"
   },
   "4a1532b1-ae50-4f46-8167-5d0c3ae6d0da": {
     "asset": 1664003114602,
@@ -878,5 +873,10 @@
     "asset": 1664003114601,
     "meta": 1664003127535,
     "relativePath": "data/sprites/space-shooter/png/impact.anim"
+  },
+  "a4e113e3-20c1-4c4f-83ac-6bbd20db8053": {
+    "asset": 1664004224635,
+    "meta": 1664004226207,
+    "relativePath": "scripts/core/ShipControl.js"
   }
 }
