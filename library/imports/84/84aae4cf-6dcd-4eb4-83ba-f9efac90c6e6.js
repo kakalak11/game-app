@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '84aaeTPbc1OtIO6+e+skMbm', 'winBoardScript');
-// script/winBoardScript.js
+// scripts/out-of-date/winBoardScript.js
 
 'use strict';
 

@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '4ff70AxTrFBG6TaGPkydtY3', 'keyboardScript');
-// script/keyboardScript.js
+// scripts/out-of-date/keyboardScript.js
 
 'use strict';
 

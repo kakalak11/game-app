@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '688deAYbdlDr4V81CNkMKEy', 'notificationScript');
-// script/notificationScript.js
+// scripts/out-of-date/notificationScript.js
 
 'use strict';
 

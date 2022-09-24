@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'c9880hN7mtKJIkIbcmDncBl', 'gameBoard');
-// script/gameBoard.js
+// scripts/out-of-date/gameBoard.js
 
 'use strict';
 

@@ -1,6 +1,6 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/scripts/out-of-date/mainScript.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
 cc._RF.push(module, '8fac4OIPJpNUYU/SJM4C9F8', 'mainScript', __filename);
-// script/mainScript.js
+// scripts/out-of-date/mainScript.js
 
 'use strict';
 

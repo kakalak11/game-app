@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '7d386LJraBC4LmolXtj0ui1', 'instructionScript');
-// script/instructionScript.js
+// scripts/out-of-date/instructionScript.js
 
 "use strict";
 

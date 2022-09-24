@@ -679,11 +679,6 @@
     "meta": 1649494269454,
     "relativePath": "scripts/core"
   },
-  "4a1532b1-ae50-4f46-8167-5d0c3ae6d0da": {
-    "asset": 1649494532554,
-    "meta": 1649494551744,
-    "relativePath": "scripts/core/GameManager.js"
-  },
   "8da8a522-779b-4c9e-9c18-3c6d830cf93e": {
     "asset": 1649495270714,
     "meta": 1649494614435,
@@ -723,11 +718,6 @@
     "asset": 1663479718924,
     "meta": 1663479399273,
     "relativePath": "data"
-  },
-  "9ac11c5b-199e-4944-8a39-174fb077f10d": {
-    "asset": 1663483633561,
-    "meta": 1663483633572,
-    "relativePath": "data/scenes/shooter.fire"
   },
   "08e32b41-bca9-478b-95e1-c3f938eeb6b0": {
     "asset": 1663479765557,
@@ -850,23 +840,43 @@
     "relativePath": "data/sprites/space-shooter/preview.jpg"
   },
   "ffbb1198-a2db-405b-8afe-b25e8b38326c": {
-    "asset": 1663480361843,
-    "meta": 1663480361845,
+    "asset": 1664003114600,
+    "meta": 1664003127460,
     "relativePath": "data/prefab/bullet.prefab"
   },
+  "9ac11c5b-199e-4944-8a39-174fb077f10d": {
+    "asset": 1664003114601,
+    "meta": 1664003127483,
+    "relativePath": "data/scenes/shooter.fire"
+  },
   "201f5424-e6ea-4943-a059-2a7cff4ade02": {
-    "asset": 1663481385901,
-    "meta": 1663481386764,
+    "asset": 1664003114601,
+    "meta": 1664003127501,
     "relativePath": "scripts/core/BulletComp.js"
   },
   "9557901d-e80b-4b13-b88b-dbb729ffb049": {
-    "asset": 1663483681341,
-    "meta": 1663483683094,
+    "asset": 1664003114602,
+    "meta": 1664003127520,
     "relativePath": "scripts/core/EnemyComp.js"
   },
   "a4e113e3-20c1-4c4f-83ac-6bbd20db8053": {
-    "asset": 1664003073314,
+    "asset": 1664003114602,
     "meta": 1664003074295,
     "relativePath": "scripts/core/ShipControl.js"
+  },
+  "4a1532b1-ae50-4f46-8167-5d0c3ae6d0da": {
+    "asset": 1664003114602,
+    "meta": 1664003127532,
+    "relativePath": "scripts/core/GameManager.js"
+  },
+  "3864ffc8-aed0-40af-8392-4c9fbc37d2c4": {
+    "asset": 1664003114600,
+    "meta": 1664003127534,
+    "relativePath": "data/prefab/impact.prefab"
+  },
+  "5bf442d8-47b3-413c-8633-771f81f82bb6": {
+    "asset": 1664003114601,
+    "meta": 1664003127535,
+    "relativePath": "data/sprites/space-shooter/png/impact.anim"
   }
 }
