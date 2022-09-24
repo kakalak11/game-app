@@ -63,11 +63,11 @@
         "type": "dock-h"
       },
       "panels": [
-        "hierarchy",
-        "assets",
         "console",
         "timeline",
         "game-window",
+        "assets",
+        "hierarchy",
         "inspector",
         "node-library",
         "scene"

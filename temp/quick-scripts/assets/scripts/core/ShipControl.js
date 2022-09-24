@@ -23,52 +23,95 @@ cc.Class({
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
 
         this._sprite = this.node.getComponentInChildren(cc.Sprite);
+        this.node.state = this.state = {
+            isMoving: false,
+            isMovingLeft: false,
+            isMovingRight: false
+
+        };
     },
     onKeyUp: function onKeyUp(event) {
         if (event.keyCode == cc.macro.KEY.space) {
-            var bullet = cc.instantiate(this.bulletPrefab);
-            bullet.parent = this.bulletHolder;
-            bullet.position = this.node.getPosition();
+            return shootCommand();
         }
+        var _cc$macro$KEY = cc.macro.KEY,
+            a = _cc$macro$KEY.a,
+            d = _cc$macro$KEY.d,
+            s = _cc$macro$KEY.s,
+            w = _cc$macro$KEY.w;
 
-        var isReturnToIdle = event.keyCode === cc.macro.KEY.d || event.keyCode === cc.macro.KEY.a;
-        if (isReturnToIdle) {
-            this._sprite.spriteFrame = this.steerForward;
-            if (this.horizontalTween) this.horizontalTween.stop();
+        switch (event.keyCode) {
+            case a:
+                this.state.isMovingLeft = false;
+                break;
+            case d:
+                this.state.isMovingRight = false;
+                break;
+            case w:
+                // this._steerVertical({ isForward: true });
+                break;
+            case s:
+                // this._steerVertical({ isForward: false });
+                break;
         }
+        var isMovingHorizontal = this.state.isMovingLeft && this.state.isMovingRight;
+        var isMoving = (this.state.isMovingLeft || this.state.isMovingRight) && !isMovingHorizontal;
+        this.state.isMoving = isMoving;
 
-        var stopVertical = event.keyCode == cc.macro.KEY.w || event.keyCode == cc.macro.KEY.s;
-        if (stopVertical) this.verticalTween.stop();
-
-        cc.warn(isReturnToIdle);
+        if (!isMoving) this._sprite.spriteFrame = this.steerForward;
+    },
+    shootCommand: function shootCommand() {
+        var bullet = cc.instantiate(this.bulletPrefab);
+        bullet.parent = this.bulletHolder;
+        bullet.position = this.node.getPosition();
     },
     onKeyDown: function onKeyDown(event) {
-        if (event.keyCode == cc.macro.KEY.d) {
-            this._steerHorizontal({ isRight: true });
-        } else if (event.keyCode == cc.macro.KEY.a) {
-            this._steerHorizontal({ isRight: false });
-        } else if (event.keyCode == cc.macro.KEY.w) {
-            this._steerVertical({ isForward: true });
-        } else if (event.keyCode == cc.macro.KEY.s) {
-            this._steerVertical({ isForward: false });
+        var _cc$macro$KEY2 = cc.macro.KEY,
+            a = _cc$macro$KEY2.a,
+            d = _cc$macro$KEY2.d,
+            s = _cc$macro$KEY2.s,
+            w = _cc$macro$KEY2.w;
+
+        switch (event.keyCode) {
+            case a:
+                this._steerHorizontal({ isRight: false });
+                this.state.isMovingLeft = true;
+                break;
+            case d:
+                this._steerHorizontal({ isRight: true });
+                this.state.isMovingRight = true;
+                break;
+            case w:
+                this._steerVertical({ isForward: true });
+                break;
+            case s:
+                this._steerVertical({ isForward: false });
+                break;
         }
+        var isMovingHorizontal = this.state.isMovingLeft && this.state.isMovingRight;
+        this.state.isMoving = (this.state.isMovingLeft || this.state.isMovingRight) && !isMovingHorizontal;
     },
     _steerHorizontal: function _steerHorizontal(_ref) {
         var _ref$isRight = _ref.isRight,
             isRight = _ref$isRight === undefined ? true : _ref$isRight;
 
-        if (isRight) this._sprite.spriteFrame = this.steerLeft;else this._sprite.spriteFrame = this.steerRight;
-        if (this.horizontalTween) this.horizontalTween.stop();
+        if (isRight) this._sprite.spriteFrame = this.steerRight;else this._sprite.spriteFrame = this.steerLeft;
+    },
+    update: function update(dt) {
+        var _state = this.state,
+            isMovingLeft = _state.isMovingLeft,
+            isMovingRight = _state.isMovingRight,
+            isMoving = _state.isMoving;
 
-        this.horizontalTween = cc.tween(this.node).repeatForever(cc.tween().by(1, { x: isRight ? this.speed : this.speed * -1 })).start();
+        if (!isMoving) return;
+        if (isMovingLeft) this.node.x += this.speed * -1 * dt;
+        if (isMovingRight) this.node.x += this.speed * dt;
     },
     _steerVertical: function _steerVertical(_ref2) {
         var _ref2$isForward = _ref2.isForward,
             isForward = _ref2$isForward === undefined ? true : _ref2$isForward;
 
         if (this.verticalTween) this.verticalTween.stop();
-
-        this.verticalTween = cc.tween(this.node).repeatForever(cc.tween().by(1, { y: isForward ? this.speed : this.speed * -1 })).start();
     }
 });
 

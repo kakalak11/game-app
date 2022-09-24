@@ -17,50 +17,81 @@ cc.Class({
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
 
         this._sprite = this.node.getComponentInChildren(cc.Sprite);
+        this.node.state = this.state = {
+            isMoving: false,
+            isMovingLeft: false,
+            isMovingRight: false,
+
+        };
     },
 
     onKeyUp(event) {
         if (event.keyCode == cc.macro.KEY.space) {
-            const bullet = cc.instantiate(this.bulletPrefab);
-            bullet.parent = this.bulletHolder;
-            bullet.position = this.node.getPosition();
+            return shootCommand();
         }
-
-        const isReturnToIdle = event.keyCode === cc.macro.KEY.d || event.keyCode === cc.macro.KEY.a;
-        if (isReturnToIdle) {
-            this._sprite.spriteFrame = this.steerForward;
-            if (this.horizontalTween) this.horizontalTween.stop();
+        const { a, d, s, w } = cc.macro.KEY;
+        switch (event.keyCode) {
+            case a:
+                this.state.isMovingLeft = false;
+                break;
+            case d:
+                this.state.isMovingRight = false;
+                break;
+            case w:
+                // this._steerVertical({ isForward: true });
+                break;
+            case s:
+                // this._steerVertical({ isForward: false });
+                break;
         }
+        const isMovingHorizontal = this.state.isMovingLeft && this.state.isMovingRight;
+        const isMoving = (this.state.isMovingLeft || this.state.isMovingRight) && !isMovingHorizontal;
+        this.state.isMoving = isMoving;
 
-        const stopVertical = event.keyCode == cc.macro.KEY.w || event.keyCode == cc.macro.KEY.s;
-        if (stopVertical) this.verticalTween.stop();
+        if (!isMoving) this._sprite.spriteFrame = this.steerForward;
+    },
 
-        cc.warn(isReturnToIdle);
+    shootCommand() {
+        const bullet = cc.instantiate(this.bulletPrefab);
+        bullet.parent = this.bulletHolder;
+        bullet.position = this.node.getPosition();
     },
 
     onKeyDown(event) {
-        if (event.keyCode == cc.macro.KEY.d) {
-            this._steerHorizontal({ isRight: true });
-        } else if (event.keyCode == cc.macro.KEY.a) {
-            this._steerHorizontal({ isRight: false });
-        } else if (event.keyCode == cc.macro.KEY.w) {
-            this._steerVertical({ isForward: true });
-        } else if (event.keyCode == cc.macro.KEY.s) {
-            this._steerVertical({ isForward: false });
+        const { a, d, s, w } = cc.macro.KEY;
+        switch (event.keyCode) {
+            case a:
+                this._steerHorizontal({ isRight: false });
+                this.state.isMovingLeft = true;
+                break;
+            case d:
+                this._steerHorizontal({ isRight: true });
+                this.state.isMovingRight = true;
+                break;
+            case w:
+                this._steerVertical({ isForward: true });
+                break;
+            case s:
+                this._steerVertical({ isForward: false });
+                break;
         }
+        const isMovingHorizontal = this.state.isMovingLeft && this.state.isMovingRight;
+        this.state.isMoving = (this.state.isMovingLeft || this.state.isMovingRight) && !isMovingHorizontal;
     },
 
     _steerHorizontal({ isRight = true }) {
-        if (isRight) this._sprite.spriteFrame = this.steerLeft;
-        else this._sprite.spriteFrame = this.steerRight;
-        if (this.horizontalTween) this.horizontalTween.stop();
+        if (isRight) this._sprite.spriteFrame = this.steerRight;
+        else this._sprite.spriteFrame = this.steerLeft;
+    },
 
-        this.horizontalTween = cc.tween(this.node).repeatForever(cc.tween().by(1, { x: isRight ? this.speed : this.speed * -1 })).start();
+    update(dt) {
+        const { isMovingLeft, isMovingRight, isMoving } = this.state
+        if (!isMoving) return;
+        if (isMovingLeft) this.node.x += this.speed * -1 * dt;
+        if (isMovingRight) this.node.x += this.speed * dt;
     },
 
     _steerVertical({ isForward = true }) {
         if (this.verticalTween) this.verticalTween.stop();
-
-        this.verticalTween = cc.tween(this.node).repeatForever(cc.tween().by(1, { y: isForward ? this.speed : this.speed * -1 })).start();
     },
 });
